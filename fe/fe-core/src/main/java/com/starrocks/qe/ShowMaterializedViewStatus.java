@@ -206,7 +206,6 @@ public class ShowMaterializedViewStatus {
             return "RefreshJobStatus{" +
                     "taskId=" + taskId +
                     ", taskName='" + taskName + '\'' +
-                    ", taskOwner='" + taskOwner + '\'' +
                     ", refreshState=" + refreshState +
                     ", mvRefreshStartTime=" + mvRefreshStartTime +
                     ", mvRefreshEndTime=" + mvRefreshEndTime +
