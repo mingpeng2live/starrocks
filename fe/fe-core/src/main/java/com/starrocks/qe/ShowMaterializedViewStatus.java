@@ -201,14 +201,6 @@ public class ShowMaterializedViewStatus {
             this.extraMessage = extraMessage;
         }
 
-        public String getTaskOwner() {
-            return taskOwner;
-        }
-
-        public void setTaskOwner(String taskOwner) {
-            this.taskOwner = taskOwner;
-        }
-
         @Override
         public String toString() {
             return "RefreshJobStatus{" +
