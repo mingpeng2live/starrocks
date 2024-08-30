@@ -200,6 +200,39 @@ public class ShowMaterializedViewStatus {
         public void setExtraMessage(ExtraMessage extraMessage) {
             this.extraMessage = extraMessage;
         }
+<<<<<<< HEAD
+=======
+
+        public String getTaskOwner() {
+            return taskOwner;
+        }
+
+        public void setTaskOwner(String taskOwner) {
+            this.taskOwner = taskOwner;
+        }
+
+        @Override
+        public String toString() {
+            return "RefreshJobStatus{" +
+                    "taskId=" + taskId +
+                    ", taskName='" + taskName + '\'' +
+                    ", taskOwner='" + taskOwner + '\'' +
+                    ", refreshState=" + refreshState +
+                    ", mvRefreshStartTime=" + mvRefreshStartTime +
+                    ", mvRefreshEndTime=" + mvRefreshEndTime +
+                    ", totalProcessDuration=" + totalProcessDuration +
+                    ", isForce=" + isForce +
+                    ", refreshedPartitionStarts=" + refreshedPartitionStarts +
+                    ", refreshedPartitionEnds=" + refreshedPartitionEnds +
+                    ", refreshedBasePartitionsToRefreshMaps=" + refreshedBasePartitionsToRefreshMaps +
+                    ", refreshedMvPartitionsToRefreshs=" + refreshedMvPartitionsToRefreshs +
+                    ", errorCode='" + errorCode + '\'' +
+                    ", errorMsg='" + errorMsg + '\'' +
+                    ", isRefreshFinished=" + isRefreshFinished +
+                    ", extraMessage=" + extraMessage +
+                    '}';
+        }
+>>>>>>> ef9d05ceda ([UT] Fix unstable testShowMaterializedViewsWithNonForce test (#50438))
     }
 
     /**
