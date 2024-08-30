@@ -200,8 +200,6 @@ public class ShowMaterializedViewStatus {
         public void setExtraMessage(ExtraMessage extraMessage) {
             this.extraMessage = extraMessage;
         }
-<<<<<<< HEAD
-=======
 
         public String getTaskOwner() {
             return taskOwner;
@@ -232,7 +230,6 @@ public class ShowMaterializedViewStatus {
                     ", extraMessage=" + extraMessage +
                     '}';
         }
->>>>>>> ef9d05ceda ([UT] Fix unstable testShowMaterializedViewsWithNonForce test (#50438))
     }
 
     /**
